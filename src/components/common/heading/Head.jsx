@@ -30,6 +30,8 @@ import {
 } from "react-icons/fa"
 import { motion } from "framer-motion"
 import "./header.css"
+import LoginForm from "./LoginForm"
+import SignupForm from "./SignupForm"
 
 const Head = () => {
   // Main state for different views
