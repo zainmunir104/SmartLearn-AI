@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import "./ProcessingView.css";
 import HistoryPage from './HistoryPage';
 
+
+
 const ProcessingView = ({
   processingComplete,
   slides,
@@ -48,7 +50,6 @@ const ProcessingView = ({
     { code: 'fr-FR', label: 'French' },
   ];
 
-  // Language code mapping for LibreTranslate
   const langMap = {
     'en-US': 'en',
     'es-ES': 'es',
