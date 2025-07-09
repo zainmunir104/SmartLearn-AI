@@ -7,7 +7,7 @@ const ChatPage = () => {
   const handleSend = () => {
     if (!input.trim()) return;
     setMessages([...messages, { type: 'user', text: input }]);
-    // Here you would call your backend or OpenAI API and add the response
+
     setTimeout(() => {
       setMessages(msgs => [...msgs, { type: 'bot', text: 'This is a sample response.' }]);
     }, 1000);
