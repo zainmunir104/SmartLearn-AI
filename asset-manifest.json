@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SmartLearn-AI/static/css/main.c4a727c0.css",
+    "main.js": "/SmartLearn-AI/static/js/main.bc71f3d6.js",
+    "static/js/453.d8dcbdb0.chunk.js": "/SmartLearn-AI/static/js/453.d8dcbdb0.chunk.js",
+    "index.html": "/SmartLearn-AI/index.html",
+    "main.c4a727c0.css.map": "/SmartLearn-AI/static/css/main.c4a727c0.css.map",
+    "main.bc71f3d6.js.map": "/SmartLearn-AI/static/js/main.bc71f3d6.js.map",
+    "453.d8dcbdb0.chunk.js.map": "/SmartLearn-AI/static/js/453.d8dcbdb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4a727c0.css",
+    "static/js/main.bc71f3d6.js"
+  ]
+}
