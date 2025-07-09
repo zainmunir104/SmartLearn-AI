@@ -34,7 +34,7 @@ const LandingPage = ({ setCurrentView }) => {
       <section className="about-us">
         <div className="about-container">
           <div className="about-image">
-            <img src="/assets/office.jpg" alt="About Us" />
+            <img src={`${process.env.PUBLIC_URL}/assets/office.jpg`} alt="About Us" />
           </div>
 
           <div className="about-content">
@@ -94,7 +94,7 @@ const LandingPage = ({ setCurrentView }) => {
         </h2>
         <div className="testimonial-container">
           <div className="testimonial-card">
-            <img src="/assets/user1.jpg" alt="samaviya" className="user-img" />
+            <img src={`${process.env.PUBLIC_URL}/assets/user1.jpg`} alt="samaviya" className="user-img" />
             <div className="testimonial-content">
               <h3 className="user-name">Ms Sama</h3>
               <p className="user-role">Student</p>
@@ -104,7 +104,7 @@ const LandingPage = ({ setCurrentView }) => {
           </div>
 
           <div className="testimonial-card">
-            <img src="/assets/user2.webp" alt="Bella" className="user-img" />
+            <img src={`${process.env.PUBLIC_URL}/assets/user2.webp`} alt="Bella" className="user-img" />
             <div className="testimonial-content">
               <h3 className="user-name">Bella</h3>
               <p className="user-role">Student</p>

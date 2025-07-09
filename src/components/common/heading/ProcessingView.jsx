@@ -407,12 +407,12 @@ const ProcessingView = ({
 
   // Utility to get the correct avatar video path
   function getAvatarVideo(selectedAvatar) {
-    return selectedAvatar === 0 ? "/assets/boyavatar.mp4" : "/assets/girlavatar.mp4";
+    return selectedAvatar === 0 ? `${process.env.PUBLIC_URL}/assets/boyavatar.mp4` : `${process.env.PUBLIC_URL}/assets/girlavatar.mp4`;
   }
 
   // Utility to get the correct avatar image path
   function getAvatarImage(selectedAvatar) {
-    return selectedAvatar === 0 ? "/assets/boy.jpg" : "/assets/girl.jpg";
+    return selectedAvatar === 0 ? `${process.env.PUBLIC_URL}/assets/boy.jpg` : `${process.env.PUBLIC_URL}/assets/girl.jpg`;
   }
 
   // Utility to get a matching voice for the avatar

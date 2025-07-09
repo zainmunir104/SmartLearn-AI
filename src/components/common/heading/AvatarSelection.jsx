@@ -2,7 +2,10 @@ import { motion } from "framer-motion"
 import { FaArrowRight } from "react-icons/fa"
 
 const AvatarSelection = ({ selectedAvatar, handleAvatarSelect, handleContinue }) => {
-  const avatars = ["/assets/boy.jpg", "/assets/girl.jpg"]
+  const avatars = [
+    `${process.env.PUBLIC_URL}/assets/boy.jpg`,
+    `${process.env.PUBLIC_URL}/assets/girl.jpg`
+  ]
 
   const handleImageError = (e) => {
     console.error("Failed to load image:", e.target.src)

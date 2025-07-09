@@ -270,7 +270,7 @@ const Head = () => {
             <div className="user-profile">
               {selectedAvatar !== null && (
                 <img
-                  src={`/assets/${selectedAvatar === 0 ? "boy" : "girl"}.jpg`}
+                  src={`${process.env.PUBLIC_URL}/assets/${selectedAvatar === 0 ? "boy" : "girl"}.jpg`}
                   alt="Selected Avatar"
                   className="footer-avatar"
                 />

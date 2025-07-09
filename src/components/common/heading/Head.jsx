@@ -54,7 +54,10 @@ const Head = () => {
   // Add this near the top with your other state variables
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString())
 
-  const avatars = ["/assets/ladiavatar.jpg", "/assets/gentavatar.jpg"]
+  const avatars = [
+    `${process.env.PUBLIC_URL}/assets/ladiavatar.jpg`,
+    `${process.env.PUBLIC_URL}/assets/gentavatar.jpg`
+  ]
 
   // Add this useEffect hook after your other state declarations
   useEffect(() => {
@@ -302,7 +305,7 @@ const Head = () => {
             <div className="about-container">
               {/* Left Side: Image */}
               <div className="about-image">
-                <img src="/assets/office.jpg" alt="About Us" />
+                <img src={`${process.env.PUBLIC_URL}/assets/office.jpg`} alt="About Us" />
               </div>
 
               {/* Right Side: Text Content */}
@@ -366,7 +369,7 @@ const Head = () => {
             <div className="testimonial-container">
               {/* First Testimonial */}
               <div className="testimonial-card">
-                <img src="/assets/user1.jpg" alt="samaviya" className="user-img" />
+                <img src={`${process.env.PUBLIC_URL}/assets/user1.jpg`} alt="samaviya" className="user-img" />
                 <div className="testimonial-content">
                   <h3 className="user-name">Ms Sama</h3>
                   <p className="user-role">Student</p>
@@ -377,7 +380,7 @@ const Head = () => {
 
               {/* Second Testimonial */}
               <div className="testimonial-card">
-                <img src="/assets/user2.webp" alt="Bella" className="user-img" />
+                <img src={`${process.env.PUBLIC_URL}/assets/user2.webp`} alt="Bella" className="user-img" />
                 <div className="testimonial-content">
                   <h3 className="user-name">Bella</h3>
                   <p className="user-role">Student</p>
